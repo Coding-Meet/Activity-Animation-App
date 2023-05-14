@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<!-- here all activity animation Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/fadeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fade Transition" />
+
+        <Button
+            android:id="@+id/zoomBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zoom Transition" />
+
+        <Button
+            android:id="@+id/inAndOutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="InAndOut Transition" />
+
+        <Button
+            android:id="@+id/slideUpBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SlideUp Transition" />
+
+        <Button
+            android:id="@+id/slideDownBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SlideDown Transition" />
+
+        <Button
+            android:id="@+id/slideLeftBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SlideLeft Transition" />
+
+        <Button
+            android:id="@+id/slideRightBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SlideRight Transition" />
+
+        <Button
+            android:id="@+id/swipeLeftBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SwipeLeft Transition" />
+
+        <Button
+            android:id="@+id/swipeRightBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SwipeRight Transition" />
+
+        <Button
+            android:id="@+id/cardBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Card Transition" />
+
+        <Button
+            android:id="@+id/diagonalBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diagonal Transition" />
+
+
+        <Button
+            android:id="@+id/shrinkBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shrink Transition" />
+
+
+        <Button
+            android:id="@+id/spinBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spin Transition" />
+
+        <Button
+            android:id="@+id/splitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Split Transition" />
+
+
+        <Button
+            android:id="@+id/windmillBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Windmill Transition" />
+
+    </LinearLayout>
+</ScrollView>
